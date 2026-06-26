@@ -343,6 +343,7 @@ bossActions:
   - name: Akh Morn 2
     time: 16:44
     type: raid
+    castTime: 7.7
   - name: Wings Dark and Light 2
     time: 17:07
     type: tb
@@ -370,6 +371,7 @@ bossActions:
   - name: Akh Morn 3
     time: 18:15
     type: raid
+    castTime: 7.7
   - name: Paradise Lost
     time: 18:45
     type: enrage
