@@ -1,7 +1,7 @@
 id: umad
 name: Dancing Mad (Ultimate)
 shortName: UMAD
-duration: 18:46
+duration: 18:42
 maxLevel: 100
 phases:
   - name: Kefka
@@ -18,7 +18,7 @@ phases:
     endTime: 14:55
   - name: Ultima Kefka
     startTime: 14:55
-    endTime: 18:46
+    endTime: 18:42
 mechanics:
   - name: Graven Image I
     startTime: 0:30
@@ -42,14 +42,8 @@ mechanics:
     startTime: 8:40
     endTime: 8:55
   - name: Black Hole
-    startTime: 9:19
+    startTime: 9:25
     endTime: 11:35
-  - name: Grand Cross
-    startTime: 12:22
-    endTime: 13:30
-  - name: Wave/Bolt & Upsurge
-    startTime: 13:40
-    endTime: 14:26
   - name: Celestriad (Finale)
     startTime: 16:00
     endTime: 16:42
@@ -58,9 +52,9 @@ mechanics:
     endTime: 17:05
   - name: Forsaken
     startTime: 17:31
-    endTime: 18:16
+    endTime: 18:42
 bossActions:
-  # ===== Phase 1: Kefka =====
+# ===== Phase 1: Kefka =====
   - name: Revolting Ruin III
     time: 0:16
     type: tb
@@ -122,7 +116,7 @@ bossActions:
     time: 3:07.9
     type: raid
 
-  # ===== Phase 2: God Kefka =====
+# ===== Phase 2: God Kefka =====
   - name: Ultimate Embrace
     time: 3:41
     type: tb
@@ -165,7 +159,8 @@ bossActions:
     time: 6:17.8
     type: tb
     castStart: 6:12.8
-  # ===== Phase 3: Chaos & Exdeath =====
+
+# ===== Phase 3: Chaos & Exdeath =====
   - name: Bowels of Agony
     time: 7:30.5
     type: raid
@@ -173,7 +168,7 @@ bossActions:
   - name: Elements 1
     time: 7:50.6
     type: raid
-  - name: "Thunder III #1"
+  - name: "Thunder III"
     time: 8:01.9
     type: tb
     castStart: 7:58.9
@@ -186,56 +181,71 @@ bossActions:
   - name: Ultima Blaster
     time: 8:51.3
     type: raid
-  - name: "Thunder III #2"
+  - name: "Thunder III"
     time: 9:00.5
     type: tb
     castStart: 8:57.5
-  - name: "Thunder III #3"
+  - name: "Thunder III"
     time: 9:17.6
     type: tb
     castStart: 9:14.6
   - name: Earthquake
-    time: 9:30.5
+    time: 9:21.5
     type: raid
-    castStart: 9:26
+    castTime: 4.7
   - name: Kefka Slap 1
     time: 9:38.4
     type: raid
-  - name: Nothingness
-    time: 9:52.9
+  - name: Tether Set 1
+    time: 9:46
     type: raid
-    castStart: 9:45.8
-  - name: "Thunder III #4"
+  - name: Tether Set 2
+    time: 09:53
+    type: raid
+  - name: "Thunder III"
     time: 9:59.2
     type: tb
     castStart: 9:56.2
   - name: Kefka Slap 2
     time: 10:08.8
     type: raid
-  - name: Nothingness
-    time: 10:28
+  - name: Tether Set 3
+    time: 10:16.4
     type: raid
-    castStart: 10:16.3
-  - name: "Thunder III #5"
+  - name: Tether Set 4
+    time: 10:21.4
+    type: raid
+  - name: Tether Set 5
+    time: 10:26.5
+    type: raid
+  - name: "Thunder III"
     time: 10:40.4
     type: tb
     castStart: 10:37.4
-  - name: Nothingness
-    time: 11:02.3
+  - name: Tether Set 6
+    time: 10:50.6
     type: raid
-    castStart: 10:50.6
+  - name: Tether Set 7
+    time: 10:55.7
+    type: raid
+  - name: Tether Set 8
+    time: 11:00.7
+    type: raid
   - name: Kefka Slap 3
     time: 11:16.8
     type: raid
-  - name: Nothingness
-    time: 11:33
+  - name: Tether Set 9
+    time: 11:24.2
     type: raid
-    castStart: 11:24.4
+  - name: Tether Set 10
+    time: 11:31.3
+    type: raid
   - name: Stomp-a-Mole
     time: 11:45.5
     type: raid
     castStart: 11:40.5
-  # ===== Phase 4: Kefka Says =====
+
+# ===== Phase 4: Kefka Says =====
   - name: Grand Cross 1
     time: 12:43
     type: raid
@@ -267,7 +277,7 @@ bossActions:
     time: 14:31
     type: raid
 
-  # ===== Phase 5: Ultima Kefka =====
+# ===== Phase 5: Ultima Kefka =====
   - name: Ultima Repeater
     time: 15:11.6
     type: raid
@@ -343,5 +353,6 @@ bossActions:
     time: 18:10.5
     type: raid
   - name: Forsaken Null
-    time: 18:41.6
+    time: 18:42
     type: enrage
+    castTime: 28
