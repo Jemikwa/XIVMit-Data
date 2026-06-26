@@ -63,7 +63,7 @@ mechanics:
     startTime: 17:38
     endTime:  18:03
   - name: Enrage
-    startTime: 18:13
+    startTime: 18:12
     endTime: 19:12
 bossActions:
 # P1
@@ -263,7 +263,6 @@ bossActions:
     time: 12:51
     type: raid
   - name: Hello, Near / Distant World 3
-    castStart: 12:53
     time: 12:55
     type: raid
   - name: Blaster
