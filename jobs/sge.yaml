@@ -17,7 +17,7 @@
 - id: sge_zoe
   name: Zoe
   cooldown: 120
-  duration: 30
+  duration: 10
   minLevel: 56
   scope: party
   type: heal
