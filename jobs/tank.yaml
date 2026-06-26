@@ -62,6 +62,15 @@
   mitPercent: 40
   description: 120s self-mitigation. (Damnation / Great Nebula / Guardian / Shadowed Vigil)
 
+- id: tank_lb3
+  name: LB3
+  cooldown: 300
+  duration: 8
+  minLevel: 1
+  scope: party
+  type: shield
+  description: Tank LB3. Large HP-based barrier for all party members. (Last Bastion / Land Waker / Dark Force / Gunmetal Soul)
+
 - id: tank_buddy_mit
   name: Buddy Mit
   cooldown: 25
