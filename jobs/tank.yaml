@@ -15,7 +15,7 @@
 - id: tank_party_mit
   name: Party Mit
   cooldown: 90
-  duration: 30
+  duration: 15
   minLevel: 1
   scope: party
   type: mitigation
