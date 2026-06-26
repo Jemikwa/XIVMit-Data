@@ -1,7 +1,7 @@
 id: top
 name: The Omega Protocol
 shortName: top
-duration: 1152
+duration: 19:12
 maxLevel: 90
 phases:
   - name: Beetle Omega
@@ -42,29 +42,29 @@ mechanics:
     startTime: 5:13
     endTime: 7:00
   - name: Wave Cannon
-    startTime: 
-    endTime: 
-  - name: "Run: ****mi* (Delta)"
-    startTime: 
-    endTime: 
-  - name: "Run: ****mi* (Sigma)"
-    startTime: 
-    endTime: 
-  - name: "Run: ****mi* (Omega)"
-    startTime: 
-    endTime: 
+    startTime: 7:58
+    endTime: 8:33
+  - name: "Run: ****mi* (Delta Version)"
+    startTime: 9:22
+    endTime: 10:16
+  - name: "Run: ****mi* (Sigma Version)"
+    startTime: 10:44
+    endTime: 11:51
+  - name: "Run: ****mi* (Omega Version)"
+    startTime: 12:13
+    endTime: 13:15
   - name: First set
-    startTime: 
-    endTime: 
+    startTime: 15:08
+    endTime: 16:10
   - name: Second set
-    startTime: 
-    endTime: 
+    startTime: 16:24
+    endTime: 17:15
   - name: Cosmo Meteor
-    startTime: 
-    endTime:  
+    startTime: 17:38
+    endTime:  18:03
   - name: Enrage
-    startTime: 
-    endTime: 
+    startTime: 18:15
+    endTime: 19:12
 bossActions:
 # P1
 # Program Loop
@@ -199,61 +199,122 @@ bossActions:
     time: 9:15
     type: tb
 # Delta
+  - name: "Run: ****mi* (Delta Version)"
+    startTime: 9:24
+    time: 9:29
+    type: raid
   - name: 1st Patch Set (approximate)
     time: 9:36
     type: note
-  - name: Optical Laser / Baited AoE
-    time: ?
-    type: raid
-  - name: Beyond Defense 
-    time: ?
-    type: raid
-  - name: Oversampled Wave Cannon
+  - name: 2nd Patch Set (approximate)
+    time: 9:49
+  - name: Oversampled Wave Cannon / Pile Pitch
     time: 9:58
     type: raid 
-  - name: Pile Pitch 
-    time: 
-    type: raid
-  - name: 2nd Patch Set (approximate)
-    time: 
+  - name: 3rd Patch Set (approximate)
+    time: 10:05
     type: note
   - name: Hello, Near / Distant World 1
-    time: 
+    startTime: 10:13
+    time: 10:15
+    type: raid
+  - name: 4th Patch Set (approximate)
+    time: 10:20
     type: raid
   - name: Solar Ray 3 / 4
-    time: 
+    startTime: 10:30
+    time: 10:34
     type: tb
 # Sigma
-  - name: Hyper Pulse
-    time: 
+  - name: "Run: ****mi* (Sigma Version)"
+    startTime: 10:46
+    time: 10:51
     type: raid
-  - name: Wave Cannon 
-    time: 
+  - name: Hyper Pulse / Wave Cannon
+    time: 11:08
     type: raid
   - name: Discharge 
-    time: 
+    time: 11:17
     type: raid
   - name: Storage Violation 
-    time: 
-    type: raid
-  - name: Rear Lasers 
-    time: 
+    time: 11:21
     type: raid
   - name: Hello, Near / Distant World 2
-    time: 
+    castStart: 11:47
+    time: 11:49
     type: raid
   - name: Solar Ray 5 / 6
-    time: 
-    type: raid
+    castStart: 11:59
+    time: 12:03
+    type: tb
 # Omega 
-  - name: ---omega shit here---
+  - name: "Run: ****mi* (Omega Version)"
+    startTime: 12:15
+    time: 12:19
+    type: raid
+  - name: Diffuse Wave Cannon 
+    time: 12:38
+    type: raid 
+  - name: Oversampled Wave Cannon 
+    time: 12:51
+    type: raid
+  - name: Hello, Near / Distant World 3
+    startTime: 12:53
+    time: 12:55
+    type: raid
+  - name: Blaster
+    time: 13:07
+    type: raid
+  - name: Hello, Near / Distant World 4
+    startTime: 13:11
+    time: 13:13
+    type: raid
+  - name: Solar Ray 7 / 8
+    startTime: 13:22
+    time: 13:37
+    type: tb
 # P6
   - name: Cosmo Memory 
-    time: 
+    startTime: 14:54
+    time: 15:00
     type: raid
   - name: Cosmo Dive 1
-    time: 
+    startTime: 15:25
+    time: 15:33
     type: raid
-  - name: Unlimited Wave Cannon 1 
-    time: 
+  - name: Wave Cannon Spread 1
+    time: 16:02
+    type: raid
+  - name: Wave Cannon Spread 2
+    time: 16:04
+    type: raid 
+  - name: Wave Cannon Wild Charge 1
+    time: 16:10
+    type: raid 
+  - name: Wave Cannon Spread 3
+    time: 16:35
+    type: raid
+  - name: Wave Cannon Spread 4
+    time: 16:37
+    type: raid
+  - name: Wave Cannon Wild Charge 2
+    time: 16:43
+    type: raid
+  - name: Cosmo Dive 2
+    startTime: 17:18
+    time: 17:27
+    type: raid
+  - name: AOEs
+    time: 17:45
+    type: raid 
+  - name: Flares
+    time: 18:03
+    type: raid
+  - name: Magic Number 1
+    startTime: 18:15
+    time: 18:20
+    type: raid
+  - name: Magic Number 2
+    startTime: 18:33
+    time: 18:39
     type: raid
