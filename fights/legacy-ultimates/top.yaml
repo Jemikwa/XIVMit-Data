@@ -1,8 +1,259 @@
 id: top
 name: The Omega Protocol
-wip: true
-shortName: TOP
-duration: 24:30
+shortName: top
+duration: 1152
 maxLevel: 90
-phases: []
-bossActions: []
+phases:
+  - name: Beetle Omega
+    startTime: 0:00
+    endTime: 2:03
+  - name: Omega M/F
+    startTime: 02:12
+    endTime: 4:32
+  - name: Final Omega
+    startTime: 04:46
+    endTime: 7:39
+  - name: Blue Screen
+    startTime: 7:46
+    endTime: 8:43
+  - name: Dynamis Omega
+    startTime: 8:59
+    endTime: 13:45
+  - name: Alpha-Omega
+    startTime: 14:41
+    endTime: 19:12
+mechanics:
+  - name: Program Loop
+    startTime: 0:10
+    endTime: 0:56
+  - name: Pantokrator
+    startTime: 1:04
+    endTime: 1:40
+  - name: Party Synergy
+    startTime: 2:40
+    endTime: 3:12
+  - name: Limitless Synergy
+    startTime: 3:32
+    endTime: 4:16
+  - name: Wave Repeater
+    startTime: 4:46
+    endTime: 5:02
+  - name: "Hello, World"
+    startTime: 5:13
+    endTime: 7:00
+  - name: Wave Cannon
+    startTime: 
+    endTime: 
+  - name: "Run: ****mi* (Delta)"
+    startTime: 
+    endTime: 
+  - name: "Run: ****mi* (Sigma)"
+    startTime: 
+    endTime: 
+  - name: "Run: ****mi* (Omega)"
+    startTime: 
+    endTime: 
+  - name: First set
+    startTime: 
+    endTime: 
+  - name: Second set
+    startTime: 
+    endTime: 
+  - name: Cosmo Meteor
+    startTime: 
+    endTime:  
+  - name: Enrage
+    startTime: 
+    endTime: 
+bossActions:
+# P1
+# Program Loop
+  - name: 1st Tower / 3rd Tether 
+    time: 0:29
+    type: raid
+  - name: 2nd Tower / 4th Tether 
+    time: 0:38
+    type: raid
+  - name: 3rd Tower / 1st Tether 
+    time: 0:47
+    type: raid
+  - name: 4th Tower / 2nd Tether 
+    time: 0:55
+    type: raid
+# Pantokrator
+  - name: 1st Solo AOE / Party Stack
+    time: 1:21
+    type: raid
+  - name: 2nd Solo AOE / Party Stack 
+    time: 1:27
+    type: raid
+  - name: 3rd Solo AOE / Party Stack 
+    time: 1:33
+    type: raid
+  - name: 4th Solo AOE / Party Stack 
+    time: 1:39
+    type: raid
+  - name: Wave Cannon Kyrios 1 Spreads
+    time: 1:48
+    type: raid
+  - name: Diffuse Wave Cannon Kyrios TB 
+    startTime: 1:48
+    time: 1:56
+    type: tb
+  - name: Wave Cannon Kyrios 2 Spreads
+    time: 1:57
+    type: raid
+# P2
+  - name: Solar Ray
+    startTime: 2:23
+    time: 2:28
+    type: tb
+# Party Synergy
+  - name: Optimized Fire III Spreads
+    time: 2:57
+    type: raid
+  - name: Spotlight Stacks
+    time: 3:09
+    type: raid
+# Limitless Synergy
+  - name: Optimized Bladedance
+    time: 3:45
+    type: tb
+  - name: Optimized Meteor / Pile Pitch
+    time: 4:00
+    type: raid
+  - name: Cosmo Memory
+    time: 4:16
+    type: raid
+# P3
+  - name: Sniper Cannon / High-powered Sniper Cannon
+    time: 5:00
+    type: raid
+# Hello World 
+  - name: Tower Set 1
+    time: 5:37
+    type: raid
+  - name: 1st Patch Set (approximate)
+    time: 5:40
+    type: raid
+  - name: 2nd Patch Set (approximate)
+    time: 5:44
+    type: raid
+  - name: Tower Set 2
+    time: 5:59
+    type: raid
+  - name: 3rd Patch Set (approximate)
+    time: 6:02
+    type: raid
+  - name: 4th Patch Set (approximate)
+    time: 6:06
+    type: raid
+  - name: Tower Set 3
+    time: 6:20
+    type: raid
+  - name: 5th Patch Set (approximate)
+    time: 6:23
+    type: raid
+  - name: 6th Patch Set (approximate)
+    time: 6:27
+    type: raid
+  - name: Tower Set 4
+    time: 6:41
+    type: raid
+  - name: 7th Patch Set (approximate)
+    time: 6:44
+    type: raid
+  - name: 8th Patch Set (approximate)
+    time: 6:48
+    type: raid
+  - name: Critical Error
+    castStart: 7:01
+    time: 7:09
+    type: raid
+  - name: Oversampled Wave Cannon
+    castStart: 7:23
+    time: 7:33
+    type: raid
+# P4 Intermission
+  - name: Wave Cannon 1 Spreads 
+    time: 8:00
+    type: raid
+  - name: Wave Cannon 1 Stacks 
+    time: 8:05
+    type: raid
+  - name: Wave Cannon 2 Spreads 
+    time: 8:09
+    type: raid
+  - name: Wave Cannon 2 Stacks 
+    time: 8:17
+    type: raid
+  - name: Wave Cannon 3 Spreads 
+    time: 8:23
+    type: raid
+  - name: Wave Cannon 3 Stacks 
+    time: 8:27
+    type: raid
+# P5
+  - name: Solar Ray 1 / 2
+    startTime: 9:06
+    time: 9:15
+    type: tb
+# Delta
+  - name: 1st Patch Set (approximate)
+    time: 9:36
+    type: note
+  - name: Optical Laser / Baited AoE
+    time: ?
+    type: raid
+  - name: Beyond Defense 
+    time: ?
+    type: raid
+  - name: Oversampled Wave Cannon
+    time: 9:58
+    type: raid 
+  - name: Pile Pitch 
+    time: 
+    type: raid
+  - name: 2nd Patch Set (approximate)
+    time: 
+    type: note
+  - name: Hello, Near / Distant World 1
+    time: 
+    type: raid
+  - name: Solar Ray 3 / 4
+    time: 
+    type: tb
+# Sigma
+  - name: Hyper Pulse
+    time: 
+    type: raid
+  - name: Wave Cannon 
+    time: 
+    type: raid
+  - name: Discharge 
+    time: 
+    type: raid
+  - name: Storage Violation 
+    time: 
+    type: raid
+  - name: Rear Lasers 
+    time: 
+    type: raid
+  - name: Hello, Near / Distant World 2
+    time: 
+    type: raid
+  - name: Solar Ray 5 / 6
+    time: 
+    type: raid
+# Omega 
+  - name: ---omega shit here---
+# P6
+  - name: Cosmo Memory 
+    time: 
+    type: raid
+  - name: Cosmo Dive 1
+    time: 
+    type: raid
+  - name: Unlimited Wave Cannon 1 
+    time: 
+    type: raid
