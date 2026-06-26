@@ -8,10 +8,13 @@ phases:
     startTime: 0:00
     endTime: 2:03
   - name: Omega M/F
-    startTime: 02:12
+    startTime: :12
     endTime: 4:32
+  - name: P3 Transition
+    startTime: 4:43
+    end: 5:02
   - name: Final Omega
-    startTime: 04:46
+    startTime: 5:05
     endTime: 7:39
   - name: Blue Screen
     startTime: 7:46
@@ -35,14 +38,11 @@ mechanics:
   - name: Limitless Synergy
     startTime: 3:32
     endTime: 4:16
-  - name: Wave Repeater
-    startTime: 4:46
-    endTime: 5:02
   - name: "Hello, World"
     startTime: 5:13
     endTime: 7:00
   - name: Wave Cannon
-    startTime: 7:55
+    startTime: 7:54
     endTime: 8:33
   - name: "Run: ****mi* (Delta Version)"
     startTime: 9:22
@@ -93,14 +93,14 @@ bossActions:
   - name: 4th Solo AOE / Party Stack 
     time: 1:39
     type: raid
-  - name: Wave Cannon Kyrios 1 Spreads
+  - name: Wave Cannon Spread 1
     time: 1:48
     type: raid
-  - name: Diffuse Wave Cannon Kyrios TB 
+  - name: Diffuse Wave Cannon TB 
     castStart: 1:48
     time: 1:56
     type: tb
-  - name: Wave Cannon Kyrios 2 Spreads
+  - name: Wave Cannon Spread 2
     time: 1:57
     type: raid
 # P2
@@ -126,7 +126,8 @@ bossActions:
     time: 4:16
     type: raid
 # P3
-  - name: Sniper Cannon / High-powered Sniper Cannon
+# Wave Repeater
+  - name: (High-powered) Sniper Cannon
     time: 5:00
     type: raid
 # Hello World 
