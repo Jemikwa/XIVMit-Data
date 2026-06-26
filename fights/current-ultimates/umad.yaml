@@ -1,7 +1,7 @@
 id: umad
 name: Dancing Mad (Ultimate)
 shortName: UMAD
-duration: 18:46
+duration: 18:42
 maxLevel: 100
 phases:
   - name: Kefka
@@ -18,7 +18,7 @@ phases:
     endTime: 14:55
   - name: Ultima Kefka
     startTime: 14:55
-    endTime: 18:46
+    endTime: 18:42
 mechanics:
   - name: Graven Image I
     startTime: 0:30
@@ -52,7 +52,7 @@ mechanics:
     endTime: 17:05
   - name: Forsaken
     startTime: 17:31
-    endTime: 18:16
+    endTime: 18:42
 bossActions:
   # ===== Phase 1: Kefka =====
   - name: Revolting Ruin III
@@ -351,5 +351,6 @@ bossActions:
     time: 18:10.5
     type: raid
   - name: Forsaken Null
-    time: 18:41.6
+    time: 18:42
     type: enrage
+    castTime: 28
