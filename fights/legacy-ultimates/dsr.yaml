@@ -1,8 +1,27 @@
 id: dsr
 name: "Dragonsong's Reprise Ultimate"
-wip: true
 shortName: DSR
 duration: 00:00
 maxLevel: 90
-phases: []
-bossActions: []
+phases: 
+  - name: Knights of the Round
+  - name: Thordan
+  - name: Nidstinien
+  - name: Eyes and Rewind
+  - name: Dark Thordan
+  - name: Double Dragons
+  - name: Dragon-king Thordan
+mechanics:
+  - name: Ser Adelphel and Ser Grinnaux
+  - name: Ser Charibert
+  - name: Strength of the Ward
+  - name: Sanctity of the Ward 
+  - name: Dive from Grace 
+  - name: Darkdragon Dive 
+  - name: Eyes
+  - name: Rewind 
+  - name: Wrath of the Heavens
+  - name: Death of the Heavens
+  - name: Wroth Flames
+bossActions: 
+  - name: 
