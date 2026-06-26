@@ -1,6 +1,6 @@
 id: top
 name: The Omega Protocol
-shortName: TOP
+shortName: top
 duration: 19:12
 maxLevel: 90
 phases:
@@ -10,11 +10,8 @@ phases:
   - name: Omega M/F
     startTime: 02:12
     endTime: 4:32
-  - name: P3 Transition
-    startTime: 4:43
-    end: 5:02
   - name: Final Omega
-    startTime: 05:05
+    startTime: 04:46
     endTime: 7:39
   - name: Blue Screen
     startTime: 7:46
@@ -38,11 +35,14 @@ mechanics:
   - name: Limitless Synergy
     startTime: 3:32
     endTime: 4:16
+  - name: Wave Repeater
+    startTime: 4:46
+    endTime: 5:02
   - name: "Hello, World"
     startTime: 5:13
     endTime: 7:00
   - name: Wave Cannon
-    startTime: 7:54
+    startTime: 7:55
     endTime: 8:33
   - name: "Run: ****mi* (Delta Version)"
     startTime: 9:22
@@ -93,14 +93,14 @@ bossActions:
   - name: 4th Solo AOE / Party Stack 
     time: 1:39
     type: raid
-  - name: Wave Cannon Spread 1
+  - name: Wave Cannon Kyrios 1 Spreads
     time: 1:48
     type: raid
-  - name: Diffuse Wave Cannon TB 
+  - name: Diffuse Wave Cannon Kyrios TB 
     castStart: 1:48
     time: 1:56
     type: tb
-  - name: Wave Cannon Spreads 2
+  - name: Wave Cannon Kyrios 2 Spreads
     time: 1:57
     type: raid
 # P2
@@ -126,7 +126,6 @@ bossActions:
     time: 4:16
     type: raid
 # P3
-# Wave Repeater
   - name: Sniper Cannon / High-powered Sniper Cannon
     time: 5:00
     type: raid
@@ -194,10 +193,6 @@ bossActions:
   - name: Wave Cannon 3 Stacks 
     time: 8:27
     type: raid
-  - name: Blue Screen 
-    castStart: 8:43
-    time: 8:52
-    type: raid
 # P5
   - name: Solar Ray 1 / 2
     castStart: 9:06
@@ -214,13 +209,13 @@ bossActions:
   - name: 2nd Patch Set (approximate)
     time: 9:49
     type: raid
-  - name: Monitors / Stack
+  - name: Oversampled Wave Cannon / Pile Pitch
     time: 9:58
     type: raid 
   - name: 3rd Patch Set (approximate)
     time: 10:05
     type: raid
-  - name: "Hello, Near / Distant World 1"
+  - name: Hello, Near / Distant World 1
     castStart: 10:13
     time: 10:15
     type: raid
@@ -245,7 +240,7 @@ bossActions:
   - name: Storage Violation 
     time: 11:21
     type: raid
-  - name: "Hello, Near / Distant World 2"
+  - name: Hello, Near / Distant World 2
     castStart: 11:47
     time: 11:49
     type: raid
