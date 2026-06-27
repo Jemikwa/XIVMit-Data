@@ -2,7 +2,7 @@
 - id: ast_collective_unconscious
   name: Collective Unconscious
   cooldown: 60
-  duration: 18
+  duration: 10
   minLevel: 58
   scope: party
   type: mitigation
