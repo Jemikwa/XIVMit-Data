@@ -6,6 +6,11 @@
   scope: party
   type: shield
   replaces: sch_succor
+  pairCooldown:
+    name: Recitation
+    group: sch_recitation
+    cooldown: 90
+    maxOffset: 15
   description: Party heal + shield. ~10% max HP barrier.
 - id: sch_consolation
   name: Consolation
@@ -54,15 +59,6 @@
   scope: party
   type: heal
   description: Transforms Adloquitum and Succor into shield-enhanced versions. Increases healing potency.
-- id: sch_recitation
-  name: Recitation
-  cooldown: 90
-  duration: 15
-  minLevel: 74
-  scope: self
-  type: heal
-  chargeGroup: sch_recitation_spreadlo
-  description: Next Adloquium/Succor/Indomitability/Excogitation is free and auto-critical.
 - id: sch_spreadlo
   name: Spreadlo
   cooldown: 120
@@ -70,10 +66,15 @@
   minLevel: 56
   scope: party
   type: shield
-  chargeGroup: sch_recitation_spreadlo
   cooldownUpgrade:
     minLevel: 88
     cooldown: 90
+  pairCooldown:
+    name: Recitation
+    group: sch_recitation
+    cooldown: 90
+    maxOffset: 15
+    defaultPaired: true
   description: Spreads Galvanize barrier to all party members. ~25% max HP barrier.
 - id: sch_succor
   name: Succor
@@ -81,6 +82,11 @@
   minLevel: 35
   scope: party
   type: shield
+  pairCooldown:
+    name: Recitation
+    group: sch_recitation
+    cooldown: 90
+    maxOffset: 15
   description: Party heal + shield. ~8% max HP barrier.
 - id: sch_seraph
   name: Summon Seraph
