@@ -261,18 +261,10 @@ bossActions:
   - name: Crystal Pulse
     time: 11:13.7
     type: raid
-  - name: Akh Morn 2-1
+  - name: Akh Morn
     time: 11:20
     type: raid
-  - name: Akh Morn 2-2
-    time: 11:21
-    type: raid
-  - name: Akh Morn 2-3
-    time: 11:22
-    type: raid
-  - name: Akh Morn 2-4
-    time: 11:23
-    type: raid
+    tbAlso: true
   - name: Morn Afah
     time: 11:31.3
     type: raid
@@ -302,18 +294,10 @@ bossActions:
   - name: Hallowed Wings
     time: 12:34.5
     type: raid
-  - name: Akh Morn 2-1
+  - name: Akh Morn
     time: 12:42
     type: raid
-  - name: Akh Morn 2-2
-    time: 12:43
-    type: raid
-  - name: Akh Morn 2-3
-    time: 12:44
-    type: raid
-  - name: Akh Morn 2-4
-    time: 12:45
-    type: raid
+    tbAlso: true
   - name: Crystal Pulse
     time: 12:51
     type: raid
