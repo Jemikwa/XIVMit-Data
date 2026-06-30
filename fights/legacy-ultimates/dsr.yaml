@@ -1,7 +1,7 @@
 id: dsr
 name: "Dragonsong's Reprise Ultimate"
 shortName: DSR
-duration: 00:00
+duration: 19:53
 maxLevel: 90
 phases: 
   - name: Knights of the Round
@@ -16,8 +16,8 @@ mechanics:
   - name: Ser Charibert
   - name: Strength of the Ward
   - name: Sanctity of the Ward 
-  - name: Dive from Grace 
-  - name: Darkdragon Dive 
+  - name: Bait Set 1
+  - name: Bait Set 2
   - name: Eyes
   - name: Rewind 
   - name: Wrath of the Heavens
@@ -73,10 +73,68 @@ bossActions:
     time: 5:21
 # P3
   - name: Final Chrous 
-# Dive From Grace 
-  - name: Set 1
-    time: 
-  - name: Eye of the Tyrant 
-  - name: Darkdragon Dive 
-  - name: Set 2
-  - name: 
+
+# todo : need to watch vod to sort out mechanics that matter 
+# update mechanics above to encapsulate sets of mechs
+
+  - name: Jump / Dive 1
+  - name: Eye of the Tyrant 1
+  - name: Darkdragon Dive 1
+  - name: Jump / Dive 2
+  - name: Darkdragon Dive 2
+  - 
+  - name: Bait Set 2
+  - name: Soul Tether
+  - name: Revenge of the Horde
+    type: enrage
+# Eyes
+  - name: Resentment 
+  - name: Flare Nova
+  - name: Flare Star
+  - name: Mirage Dive 1
+  - name: Mirage Dive 2
+  - name: Mirage Dive 3
+  - name: Mirage Dive 4
+  - name: Steep in Rage
+    time: 8:42
+# Intermission
+  - name: Planar Prison 
+  - name: Pure of Heart 
+  - name: Shockwave 
+  - name: Bright Wing 
+# P4
+  - name: Skyward Leap / Spiral Pierce
+  - name: Ascalon's Mercy Revealed 
+  - name: Altar Flare 
+  - name: Liquid Heaven
+  - name: Ancient Quaga 
+  - name: Spear of the Fury 
+  - name: Lightning Storm
+  - name: Heavensflame 
+  - name: Faith Unmoving 
+  - name: Ancient Quaga 
+  - name: Heavenly Heel 
+  - name: Ascalon's Might 
+  - name: Aetheric Burst 
+    time: 12:49
+    type: enrage 
+# P5 
+# todo - add more mechs that do damage here - mit sheet sucks at this 
+  - name: Mortal Vow 
+  - name: Hallowed Plume 
+  - name: Hallowed Plume 
+  - name: Staggering Breath
+  - name: Alternate End 
+    time: 16:20
+# P6
+  - name: Exaflare's Edge 1
+  - name: Akh Morn's Edge 1
+  - name: Gigaflare's Edge 1
+  - name: Exaflare's Edge 2
+  - name: Akh Morn's Edge 2
+  - name: Gigaflare's Edge 2
+  - name: Exaflare's Edge 3
+  - name: Akh Morn's Edge 3
+  - name: Morn Afah's Edge
+    time: 19:53
+    type: enrage
