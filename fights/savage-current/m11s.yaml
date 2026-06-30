@@ -16,12 +16,15 @@ mechanics:
   - name: Meteorain
     startTime: 4:48
     endTime: 5:31
-  - name: Majestic Meteor
-    startTime: 6:12
-    endTime: 7:40
+  - name: Arena split
+    startTime: 5:53
+    endTime: 7:51
   - name: Ecliptic Stampede
     startTime: 8:51
     endTime: 9:33
+  - name: Enrage Sequence
+    startTime: 9:50
+    endTime: 11:02
 bossActions:
   - name: Crown of Arcadia
     castStart: 0:05
@@ -30,6 +33,7 @@ bossActions:
   - name: Raw Steel Trophy
     time: 0:25
     type: raid
+# Trophy Weapons 1
   - name: Assault Evolved 1
     time: 0:50
     type: raid
@@ -39,6 +43,7 @@ bossActions:
   - name: Assault Evolved 3
     time: 1:00
     type: raid
+# Trophy Weapons 2
   - name: Void Stardust Stack / Spreads
     time: 1:29
     type: raid
@@ -71,6 +76,7 @@ bossActions:
   - name: Charybdistopia
     time: 2:59
     type: raid
+# Ultimate Trophy Weapons
   - name: Assault Evolved 1
     time: 3:15
     type: raid
@@ -112,15 +118,28 @@ bossActions:
   - name: Meteor 4
     time: 5:31
     type: raid
-  - name: Tether / Marker Bait 1
-    time: 6:15
+  - name: Flatliner 
+    castStart: 5:56
+    time: 6:02
     type: raid
-  - name: Tether / Marker Bait 2
+  - name: Towers 1
+    time: 6:30
+    type: raid 
+  - name: Tether / Marker Hit 1
+    time: 6:45
+    type: raid
+  - name: Towers 2
+    time: 7:02
+    type: raid
+  - name: Tether / Marker Hit 2
     time: 7:17
     type: raid
   - name: Massive Meteor
     castStart: 7:21
     time: 7:27
+    type: raid
+  - name: Towers 3
+    time: 7:40
     type: raid
   - name: Crown of Arcadia
     castStart: 7:56
@@ -151,17 +170,18 @@ bossActions:
     castStart: 9:37
     time: 9:42
     type: raid
+# Enrage
   - name: Heartbreak Kick 1
     castStart: 9:50
-    time: 9:56
+    time: 10:07
     type: raid
   - name: Heartbreak Kick 2
     castStart: 10:09
-    time: 10:15
+    time: 10:28
     type: raid
   - name: Heartbreak Kick 3
     castStart: 10:30
-    time: 10:36
+    time: 10:51
     type: raid
   - name: Heartbreaker
     castStart: 10:54
