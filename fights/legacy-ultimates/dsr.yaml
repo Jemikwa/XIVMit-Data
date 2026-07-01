@@ -30,7 +30,7 @@ phases:
     endTime: 22:14
 mechanics:
   - name: Ser Adelphel and Ser Grinnaux
-    startTime: 0:02
+    startTime: 0:03
     endTime: 1:45
   - name: Ser Charibert
     startTime: 1:49
@@ -86,18 +86,18 @@ bossActions:
     type: raid
 # Charibert
   - name: Planar Prison
-    time: 1:52
+    time: 2:01
     type: raid
   - name: Shockwave 
-    castStart: 1:58
-    time: 2:04
+    castStart: 2:07
+    time: 2:15
     type: raid
   - name: Brightwing 
-    castStart: 2:02
-    time: 2:17
+    castStart: 2:13
+    time: 2:28
     type: raid
   - name: Pure of Heart 
-    time: 2:19
+    time: 2:30
     type: raid
 # P2 
   - name: Ascalon's Might
