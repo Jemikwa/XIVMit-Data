@@ -312,6 +312,10 @@ bossActions:
     castStart: 19:54
     time: 20:12
     type: raid
+  - name: Exaflare's Edge 3
+    castStart: 20:28
+    time: 20:34
+    type: mech
   - name: Akh Morn's Edge 3
     castStart: 20:50
     time: 21:01
