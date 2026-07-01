@@ -4,7 +4,7 @@
   cooldown: 60
   duration: 10
   minLevel: 22
-  scope: party
+  scope: enemy
   type: mitigation
   durationUpgrade:
     minLevel: 98
@@ -20,6 +20,15 @@
   scope: party
   type: mitigation
   description: Party shield / mitigation. (Shake It Off / Divine Veil / Dark Missionary / Heart of Light)
+
+- id: tank_shake_veil
+  name: Shake/Veil
+  cooldown: 90
+  duration: 30
+  minLevel: 1
+  scope: party
+  type: shield
+  description: Party shield, cast early. (Shake It Off / Divine Veil)
 
 - id: tank_short_cd
   name: Short CD
@@ -61,6 +70,15 @@
   type: mitigation
   mitPercent: 40
   description: 120s self-mitigation. (Damnation / Great Nebula / Guardian / Shadowed Vigil)
+
+- id: tank_lb3
+  name: LB3
+  cooldown: 300
+  duration: 8
+  minLevel: 1
+  scope: party
+  type: shield
+  description: Tank LB3. Large HP-based barrier for all party members. (Last Bastion / Land Waker / Dark Force / Gunmetal Soul)
 
 - id: tank_buddy_mit
   name: Buddy Mit

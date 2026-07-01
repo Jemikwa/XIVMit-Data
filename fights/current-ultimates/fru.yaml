@@ -73,6 +73,9 @@ bossActions:
   - name: Fire/Lightning
     time: 00:59
     type: raid
+  - name: Jail Tethers
+    time: 01:19
+    type: raid
   - name: Burnished Glory
     time: 01:27
     type: raid
@@ -121,7 +124,7 @@ bossActions:
     type: raid
   - name: Heavenly Strike
     time: 03:33.5
-    type: raid
+    type: mech
   - name: Sinbound Holy
     time: 03:42
     type: raid
@@ -242,7 +245,7 @@ bossActions:
     type: raid
     castTime: 4.7
   - name: Path of Light
-    time: 10:56.3
+    time: 10:54
     type: raid
     castTime: 7.7
   - name: Spirit Taker
@@ -261,12 +264,13 @@ bossActions:
   - name: Akh Morn
     time: 11:20
     type: raid
+    tbAlso: true
   - name: Morn Afah
     time: 11:31.3
     type: raid
     castTime: 5.7
   - name: Crystallize Time
-    time: 11:46.3
+    time: 11:44
     type: raid
     castTime: 9.7
   - name: Crystal Pulse
@@ -281,6 +285,9 @@ bossActions:
   - name: Spirit Taker
     time: 12:23.6
     type: raid
+  - name: Hallowed Wings (Front)
+    time: 12:30
+    type: tb
   - name: Hallowed Wings
     time: 12:30
     type: raid
@@ -288,8 +295,9 @@ bossActions:
     time: 12:34.5
     type: raid
   - name: Akh Morn
-    time: 12:44
+    time: 12:42
     type: raid
+    tbAlso: true
   - name: Crystal Pulse
     time: 12:51
     type: raid
@@ -343,6 +351,7 @@ bossActions:
   - name: Akh Morn 2
     time: 16:44
     type: raid
+    castTime: 7.7
   - name: Wings Dark and Light 2
     time: 17:07
     type: tb
@@ -370,6 +379,7 @@ bossActions:
   - name: Akh Morn 3
     time: 18:15
     type: raid
+    castTime: 7.7
   - name: Paradise Lost
     time: 18:45
     type: enrage

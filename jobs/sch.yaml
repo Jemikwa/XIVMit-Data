@@ -6,6 +6,11 @@
   scope: party
   type: shield
   replaces: sch_succor
+  pairCooldown:
+    name: Recitation
+    group: sch_recitation
+    cooldown: 90
+    maxOffset: 15
   description: Party heal + shield. ~10% max HP barrier.
 - id: sch_consolation
   name: Consolation
@@ -64,6 +69,12 @@
   cooldownUpgrade:
     minLevel: 88
     cooldown: 90
+  pairCooldown:
+    name: Recitation
+    group: sch_recitation
+    cooldown: 90
+    maxOffset: 15
+    defaultPaired: true
   description: Spreads Galvanize barrier to all party members. ~25% max HP barrier.
 - id: sch_succor
   name: Succor
@@ -71,6 +82,11 @@
   minLevel: 35
   scope: party
   type: shield
+  pairCooldown:
+    name: Recitation
+    group: sch_recitation
+    cooldown: 90
+    maxOffset: 15
   description: Party heal + shield. ~8% max HP barrier.
 - id: sch_seraph
   name: Summon Seraph
