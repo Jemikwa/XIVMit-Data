@@ -197,8 +197,8 @@ bossActions:
     time: 10:18
     type: raid
   - name: Bright Wing 
-    time: 9:55
-    type: 10:06
+    time: 10:06
+    type: raid
   - name: Pure of Heart 
     time: 10:15
     type: raid
@@ -257,6 +257,7 @@ bossActions:
     type: raid 
   - name: Entangled Flames 
     time: 16:16
+    type: raid
   - name: Akh Afah 2
     time: 16:32
     type: raid
